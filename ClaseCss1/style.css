@@ -1,0 +1,16 @@
+p {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+/* Clase */
+
+.parrafo {
+    color: red;
+}
+/* ID */
+
+#texto {
+    color: green;
+    font-size: 24px;
+}
