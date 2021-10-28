@@ -1,0 +1,19 @@
+h1 {
+    font-size: 60px;
+    font-family: "Arial";
+    color: red;
+}
+
+.tipo {
+    font-size: 25px;
+    font-family: "Arial";
+    font-style: italic;
+    color: green;
+}
+.opcion {
+    font-size: 15px;
+    font-family: "Arial";
+    color: brown;
+    font-style: italic;
+    text-decoration: none;
+}
