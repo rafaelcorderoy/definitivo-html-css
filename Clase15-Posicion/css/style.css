@@ -18,7 +18,8 @@ html {
     width: 150px;
     height: 50px;
     position: absolute;
-    margin-left: 25px;
+    margin: 0 25px;
+    object-position: center;
     border: 2px solid darkblue;
     border-radius: 10px;
     top: 0px;
