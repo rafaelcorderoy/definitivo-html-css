@@ -1,0 +1,20 @@
+@media (min-width:800px) {
+    .main-container {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .clase1 {
+        width: 60%
+    }
+    .clase2 {
+        width: 40%
+    }
+    .clase3, .clase4 {
+        width: 33%;
+    }
+    .clase5 {
+        width: 34%;
+    }
+
+}

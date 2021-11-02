@@ -9,6 +9,7 @@ html {
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    background-color: red;
 }
 .clase1, .clase2, .clase3, .clase4, .clase5 {
     width: 100%;
@@ -25,8 +26,34 @@ html {
     background-color: #b4d2f7;
 }
 .clase4 {
-    background-color: #d5dfef;
+    background-color: orange;
 }
 .clase5 {
-    background-color: #dfe1e5;
+    background-color: yellow;
+}
+
+@media (min-width:600px) {
+    .clase2, .clase3, .clase4 {
+        width: 50%;
+    }
+}
+@media (min-width:800px) {
+    .main-container {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .clase1 {
+        width: 60%
+    }
+    .clase2 {
+        width: 40%
+    }
+    .clase3, .clase4 {
+        width: 33%;
+    }
+    .clase5 {
+        width: 34%;
+    }
+
 }
