@@ -1,5 +1,5 @@
-@media (min-width:600px) {
-    .clase2, .clase3, .clase4 {
-        width: 50%;
-    }
+.clase2, .clase3, .clase4 {
+    width: 50%;
+    font-size: 1.5rem;
+    color: red;
 }

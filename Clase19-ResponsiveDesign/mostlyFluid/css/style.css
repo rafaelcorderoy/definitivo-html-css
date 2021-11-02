@@ -11,43 +11,37 @@ html {
     flex-wrap: wrap;
     background-color: red;
 }
-.clase1, .clase2, .clase3, .clase4, .clase5, .clase6, .clase7 {
+.clase1, .clase2, .clase3, .clase4, .clase5 {
     width: 100%;
     min-width: 150px;
     height: 150px;
 }
 .clase1 {
     background-color: #003476;
+    font-size: 1.5rem;
+    color: yellow;
 }
 .clase2 {
     background-color: #0062d2;
+    font-size: 2.5rem;
+    color: yellowgreen;
 }
 .clase3 {
     background-color: #b4d2f7;
+    font-size: 3.5rem;
 }
 .clase4 {
     background-color: orange;
-    height: auto;
+    font-size: 4.5rem;
 }
 .clase5 {
     background-color: yellow;
+    font-size: 5.5rem;
 }
-.clase6 {
-    background-color: green;
-}
-.clase7 {
-    background-color: brown;
-}
-
-@media (min-width:600px) {
-    .clase1 {
-        width: 25%;
-    }
-    .clase4 {
-        width: 75%;
-    }
-    .clase5 {
-        width: 100%;
+/* @media (min-width:600px) {
+    .clase2, .clase3, .clase4 {
+        width: 50%;
+        font-size: 1.5rem;
     }
 }
 @media (min-width:800px) {
@@ -57,30 +51,15 @@ html {
         margin-right: auto;
     }
     .clase1 {
-        width: 50%;
-        order: 5;
+        width: 60%;
     }
     .clase2 {
-        width: 80%;
+        width: 40%;
     }
-    .clase3 {
-        width: 80%;
-    }
-    .clase4 {
-        width: 80%;
-        order: 3;
+    .clase3, .clase4 {
+        width: 33%;
     }
     .clase5 {
-        width: 50%;
-        order: 4;
+        width: 34%;
     }
-    .clase6 {
-        width: 100%;
-        order: 1;
-    }
-    .clase7 {
-        width: 20%;
-        height: 300px;
-        order: 2;
-    }
-}
+} */
