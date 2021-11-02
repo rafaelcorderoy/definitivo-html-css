@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.clase1, .clase2, .clase3, .clase4, .clase5 {
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+}
+.clase1 {
+    background-color: #003476;
+}
+.clase2 {
+    background-color: #0062d2;
+}
+.clase3 {
+    background-color: #b4d2f7;
+}
+.clase4 {
+    background-color: #d5dfef;
+}
+.clase5 {
+    background-color: #dfe1e5;
+}
